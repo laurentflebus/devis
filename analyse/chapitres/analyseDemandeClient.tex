@@ -1,0 +1,52 @@
+\section{Analyse de la demande du client}
+Commentaire.  Il est fondamental de connaître les attentes du client, ses besoins, ses exigences pour savoir ce qu’il faut lui livrer et par conséquent ce qu’il ne faudra pas lui livrer.  Identifiez les demandes et formulez-les de manière la plus élémentaire possible, numérotez-les afin de pourvoir y faire référence dans la suite de l’analyse.
+
+\subsection{User Stories}
+
+\begin{description}
+ \item[US1] En tant que gestionnaire, je dois pouvoir me connecter à l'application par un pseudo et un mot de passe fourni par défaut 
+  \item[US2] En tant que gestionnaire, je dois pouvoir inscrire un client via un formulaire en lui insérant ses données personnelles. 
+  \item[US3] En tant que gestionnaire, je dois pouvoir consulter la liste des clients enregistrés et pouvoir éditer les profils (modifier les informations ou les effacer).
+  \item[US4] En tant que gestionnaire, je dois pouvoir encoder, modifier et supprimer un matériau ainsi que son prix HTVA.
+  \item[US5] En tant que gestionnaire, je dois pouvoir créer un devis, lui attribuer une date, un client,  les matériaux ainsi que leurs quantités, le type d'employé ainsi que le nombre d'heures de travail avec génération du prix total (prix HTVA et TVAC). 
+  \item[US6] En tant que gestionnaire, je dois pouvoir envoyer un devis (format PDF) par email au client.
+  \item[US7] En tant que gestionnaire, je dois pouvoir me déconnecter de l'application.
+ \end{description}
+
+\subsection{Recueil des demandes fonctionnelles}
+
+Commentaire.  Les demandes fonctionnelles décrivent ce que doit faire le programme ou l’application que le client attend ou qui sont obligatoires pour le bon fonctionnement de l’application.
+
+
+DF 1.	Consultation de l’historique des factures journalière, mensuelle.  
+DF 2.	Consultation sur une période de maximum 2 années
+
+\begin{enumerate} 
+\item  Accès à l'application via un login et une mot de passe
+\item Ajout, modification, suppression et recherche d’un client
+\item Ajout, modification, suppression et recherche d’un article
+\item Ajout, modification, suppression et recherche d’un employé
+\item Ajout, modification, suppression et recherche d’un devis
+\end{enumerate}
+
+\subsection{Recueil des demandes non-fonctionnelles}
+Commentaire.  Les demandes non-fonctionnelles correspondent à ce que le programme ou l’application doit intégrer en plus des fonctionnalités attendues.  Par exemple, les performances minimales acceptables, les demandes de sécurité (p.ex. protection des données à caractère personnel), les demandes de qualité, etc.
+
+
+DNF 1.	Demande non-fonctionnelle.
+
+\begin{enumerate} 
+\item Développement en PHP
+\item Utilisation du framework Laravel
+\item Utilisation de l'ORM (Object Relational Mapping) Eloquent de Laravel
+\item Utilisation du framework CSS Bulma
+\item Utilisation d'un template avec Blade
+\item Base de données relationnelle MySQL
+
+\end{enumerate}
+
+\subsection{Recueil des demandes techniques}
+Commentaire.  Indiquez ici les contraintes ou les demandes techniques que vous avez identifiées chez le client : par exemple, obligations d’utiliser certains produits ou certaines versions, contraintes de compatibilités avec des systèmes qui sont déjà en place.
+
+
+DT 1.	L’application utilise Windows 8 pour les postes de travail et Windows serveur 2012 pour les serveurs.  Raison : le client dispose déjà ce des équipements et veut les réutiliser.
